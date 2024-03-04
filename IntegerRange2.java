@@ -20,7 +20,7 @@ public class IntegerRange2 {
             var theNumber = range.nextDouble();
 
             if (theNumber < longMin || theNumber > longMax)
-                System.out.println(theNumber + " can't be fitted anywhere.");
+                System.out.println(decFormat.format(theNumber) + " can't be fitted anywhere.");
             else if (theNumber >= byteMin && theNumber <= byteMax)
                 System.out.println(decFormat.format(theNumber) + " can be fitted in:\n* byte\n* short\n* int\n* long");
             else if(theNumber >= shortMin && theNumber <= shortMax)
