@@ -16,7 +16,7 @@ public class IntegerRange2 {
         theNumber = range.nextDouble();*/
         DecimalFormat decFormat = new DecimalFormat("0.#");
 
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < 6; i++){
 
             theNumber = range.nextDouble();
 
